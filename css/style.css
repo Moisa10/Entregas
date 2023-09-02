@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-navegacao{
+    /*  */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DEEAB9;
+}
+.menu-navegacao li:hover{
+color: #fff;
+}
+
+ul, li {
+    margin-right: 50px;
+    font-family: Roboto;
+     display:inline-block;
+     margin-left: 24px;
+     cursor: pointer;
+
+}
+.img-logo{
+    
+    margin-left: 100px;
+    width: 96px;
+    height: 96px;
+}
+.inicio{
+    color: #fff;
+}
+
+.principal{
+    width: 60%;
+    margin-left: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    
+}
+h1,h2,h3{
+    font-family: Roboto;
+    width: fit-content;
+}
+h2{
+    font-weight: 300;
+}
+h3{
+    background-color: #006633;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 8px 0 16px;
+    color: white;
+}
+.dolinho{
+    margin: 200px 0px 0px -170px;
+    
+}
+.videos{
+    margin: 100px 50px 50px 400px ;
+
+}
+.videoh2{
+    color: #4fa7b0;
+}
+.redesh2{
+    color: #4fa7b0;
+    
+}
+.redes{
+    
+    margin-left: 400px;
+}
+.apresenta{
+    margin-left: 100px;
+}
+.movimento{
+    margin-left: 300px;
+}
+.rodape{
+    
+    display: flex;
+    align-items: center;
+    background-color: #006633;
+    justify-content: space-between;
+    
+}
+h4{
+    color: #fff;
+}
